@@ -6,25 +6,25 @@ body {
     color: white;
 }
 
-h2.index-content-title {
+.index-content-title {
 	color: #f7f4f1;
 	font-family: "Myriad Pro";
 	font-size: 30px;
 	font-weight: 400;
 	line-height: 42px;
 }
-h2.login-header {
+.login-header {
 	color: black;
 	font-size: 30px;
 	font-weight: 700;
 }
-h1.content-title {
+.content-title {
 	color: black;
 	font-size: 30px;
 	font-weight: 700;
 	line-height: 42px;
 }
-h2.sidebar-title {
+.sidebar-title {
 	color: black;
 	font-size: 24px;
 	font-weight: 700;
