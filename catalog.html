@@ -3,17 +3,18 @@
   	<head>
     	<meta charset="utf-8">
     	<title>Барбершоп «Бородинский»</title>
+      <link rel="stylesheet" href="css/style.css" type="text/css">
   	</head>
   	<body>
     <header class="main-header">
-      	<div class="container">
+      	<div class="container clearfix">
         	 <div class="logo">
               <a class="logotip" href="index.html">
                 <img src="img/logo.png" width="111" height="24" alt="Barbershop">
               </a>
             </div>
         	<nav class="main-navigation">
-          		<ul>
+          		<ul class="navigation">
             		<li>
               			<a href="#">Информация</a> 
             		</li>
@@ -36,11 +37,12 @@
         	</div>
       	</div>      
     </header>
-    <main class="main-container">
-      	<div class="content">
+    <main class="container main-block">
+    
+      	<div class="content clearfix">
         	<h1 class="content-title">Средства для ухода</h1>
-          	<nav class="breadcrumb">
-            	<ul>
+          	<nav class="main-breadcrumb">
+            	<ul class="bredcrumb">
               		<li>
                 		<a href="#">Главная</a> 
               		</li>
@@ -53,7 +55,9 @@
             	</ul>
           	</nav>
       	</div>
-        <aside class="sidebar">
+
+        <div class="content-row clearfix">
+          <aside class="content-left-column">
           	<form action="#" method="post">
             	<h2 class="sidebar-title">Производители:</h2>
               	<ul>
@@ -100,8 +104,9 @@
               	<button class="btn" type="submit">Показать</button>            		
             </form>
         </aside>
-        <section class="catalog-list"> 
-          	<article class="catalog-item1">
+        <section class="content-right-column"> 
+          <div class="content-catalog clearfix">
+            <article class="catalog-item">
             	   <a class="product" href="#">
 					           <div class="product-image">
             			       <img src="img/image1.jpg" width="220" height="165" alt="Набор для путешествий Baxter of California">
@@ -115,7 +120,7 @@
               		  <a href="#" class="btn">Купить</a>
             	   </div> 
           	</article>
-          	<article class="catalog-item2">
+          	<article class="catalog-item">
             	   <a class="product" href="#">
 					           <div class="product-image">
             			       <img src="img/image2.jpg" width="220" height="165" alt="Увлажняющий кондиционер Baxter of California">
@@ -129,7 +134,7 @@
               		    <a href="#" class="btn">Купить</a>
             	     </div> 
           	</article>
-			       <article class="catalog-item3">
+			       <article class="catalog-item">
             	   <a class="product" href="#">
 					           <div class="product-image">
             			       <img src="img/image3.jpg" width="220" height="165" alt="Гель для волос Suavecito">
@@ -143,7 +148,7 @@
               		    <a href="#" class="btn">Купить</a>
             	   </div> 
           	</article>	
-			     <article class="catalog-item4">
+			     <article class="catalog-item">
             	<a class="product" href="#">
 					         <div class="product-image">
             			       <img src="img/image4.jpg" width="220" height="165" alt="Глина для укладки волос American Crew">
@@ -157,7 +162,7 @@
               		<a href="#" class="btn">Купить</a>
             	</div> 
           </article>
-			     <article class="catalog-item5">
+			     <article class="catalog-item">
             	<a class="product" href="#">
 					         <div class="product-image">
             			     <img src="img/image5.jpg" width="220" height="165" alt="Гель для волос American Crew">
@@ -171,7 +176,7 @@
               		<a href="#" class="btn">Купить</a>
             	</div> 
           </article>
-			     <article class="catalog-item5">
+			     <article class="catalog-item">
             	<a class="product" href="#">
 					         <div class="product-image">
             			     <img src="img/image6.jpg" width="220" height="165" alt="Набор для бритья Baxter of California">
@@ -184,7 +189,9 @@
               		<span class="price-item">3 900 РУБ.</span>
               		<a href="#" class="btn">Купить</a>
             	</div> 
-          	</article>	
+          	</article>
+        </div>
+
           	<div class="catalog-pages">
               <a href="#" class="btn">1</a>
               <a href="#" class="active-btn">2</a>
@@ -192,9 +199,11 @@
               <a href="#" class="btn">4</a>
           	</div>
         </section>
-    </main>
+    </div>
+    
+</main>
     <footer class="main-footer">
-        <div class="container">
+        <div class="container clearfix">
           <section class="footer-contacts">
             Барбершоп «Бородинский»<br>
             Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
